@@ -1,29 +1,49 @@
 <!DOCTYPE html>
-<html>
 
+<html>
 <head>
     <style>
-        *{padding: 0; margin: 0;}
-        body{font-family: '돋움'; font-size: 12px; color: #333;}
-        ul{list-style: none;}
-        a{color: #333; text-decoration: none;}
+        *{margin: 0; padding: 0}
+        body{font-family: '돋움'; font-size: 12px; color: #333}
+        ul{list-style: none}
+        a{color: #333; text-decoration: none}
 
         #main_wrapper{width: 1000px; margin: 0 auto; border: 1px solid #ccc; overflow: hidden;}
-        #header h1{font-size: 26px; text-align: center; padding-bottom: 20px;   margin: 20px 0;}
-        #nav {width: 150px; float: left}
-        #content {width: 668px; float: left}
-        content.box{overflow: hidden;}
-        promo{width: 150px; float: right}
-        #footer{clear: both; overflow: hidden;}
-    </style>
 
+        #header h1{font-size: 26px; text-align: center; margin: 20px 0;
+        border-bottom: 1px solid #ccc; padding-bottom: 20px;}
+
+        #nav{width: 150px; float: left}
+        #nav ul{margin: 20px 15px}
+        #nav ul li{line-height: 2em; font-weight: bold; font-size: 14px; text-align: center; padding 5px 0}
+        #nav ul li a{display: block}
+        #nav ul li a:hover{color: #fff; background: #f00}
+
+        #content{ width: 668px; float: left; 
+            border-left: 1px solid #ccc; border-right: 1px solid #ccc; padding : 20px 15px }
+        #content .box{overflow: hidden;}
+        #content .box img{float: left; margin: 0 15px 20px 0;}
+        #content p{line-height: 1.5em; text-align: justify; margin-bottom: 20px;}
+        #content span{font-weight: bold; color: orange;}
+
+        #promo{float: right; width: 150px}
+        #promo ul{margin: 20px 15px}
+        #promo ul li{line-height: 2em; font-weight: bold; font-size: 14px; text-align: center; padding 5px 0}
+        #promo ul li a{display: block}
+        #promo ul li a:hover{color: #fff; background: #f00}
+
+        #footer{clear: both; border-top: 1px solid #ccc; overflow: hidden;}
+        #footer p{font-size: 11px; text-align: center; margin: 15px, 0;}
+    </style>
 </head>
 
+
 <body>
-    <div id="main_wrapper">
+<div id="main_wrapper">
         <div id="header">
             <h1><a href="#">3단 고정 레이아웃</a></h1>
         </div>
+
         <div id="nav">
             <ul>
                 <li><a href="#">leftmenu01</a></li>
@@ -35,24 +55,29 @@
         <div id="content">
             <div class="box">
                 <img src="img/img01.png" alt="">
+                <p> Loerm ipsum dolor <span> sit amet, consectetur </span> adipisicing elit, sed do elusmod tempor incididunt ut labore et magna aliqua </p>
             </div>
             <div class="box">
                 <img src="img/img02.png" alt="">
+                <p> Loerm ipsum dolor sit amet, consectetur adipisicing elit, sed do elusmod tempor incididunt ut labore et magna aliqua</p>
+            </div>
+            <div class="box">
+                <img src="img/img03.png" alt="">
+                <p> Loerm <span> sit amet, consectetur </span> adipisicing elit, sed do elusmod tempor incididunt ut labore et magna aliqua </p>
             </div>
         </div>
 
         <div id="promo">
             <ul>
-                <li><a href="#">quickmenu01</a></li>
-                <li><a href="#">quickmenu02</a></li>
-                <li><a href="#">quickmenu03</a></li>
+                <li><a href = "#">quickmenu01</a></li>
+                <li><a href = "#">quickmenu02</a></li>
+                <li><a href = "#">quickmenu03</a></li>
             </ul>
         </div>
 
         <div id="footer">
-            <p>COPYRIGHT; 2019 BLABLA</p>
+            <p>COPYRIGHT &copy; 2019 HASY RIGHT RECSERVED</p>
         </div>
-    </div>
+</div>
 </body>
-
 </html>
