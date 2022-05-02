@@ -130,7 +130,6 @@ h1{
 .main_text0 > h1{
     padding-top: 116px;
     text-align: center;
-    background: skyblue;
 }
 
 .main_text0 > .contents1{
@@ -140,7 +139,6 @@ h1{
 .icons{
     display: flex;
     width: 1280px;
-    background: orange;
     margin: auto;
 }
 
@@ -169,9 +167,92 @@ h1{
 .more{
     width: 100px;
     height: 30px;
-    background: #2f7af4;
     color: #fff;
     font-size: 12px;
     line-height: 30px;
     margin: 25px auto;
 }
+
+.main_text1{
+    width: 100%;
+    height: 659px;
+}
+
+.main_text1 > h1{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.main_text1 > .contents1{
+    text-align: center;
+}
+
+.service{
+    width: 1280px;
+    display: flex;
+    margin: 49px auto;
+    height: 427px;
+}
+
+.service > .contents2{
+    padding: 20px;
+    font-size: 18px;
+}
+
+.service > .contents2 > h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.main_text2{
+    width: 100%;
+    height: 418px;
+    background-image: url("img/contact.png");
+}
+
+.main_text2 > ul{
+    display: flex;
+    padding-top: 138px;
+}
+
+.main_text2 > ul > li{
+    flex: 1;
+    text-align: center;
+}
+
+.main_text2 > ul > li > div > h1,
+.main_text2 > ul > li > div {
+    color: #fff;
+}
+
+.more2{
+    width: 220px;
+    height: 40px;
+    border: 1px solid #fff;
+    line-height: 40px;
+    cursor: pointer;
+    margin: 16px auto;
+}
+
+footer{
+    display: flex;
+    background: #1f1f1f;
+}
+
+footer > div:first-child{
+    flex: 4;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-size: 48px;
+}
+
+footer > div:last-child{
+    flex: 8;
+    color: #fff;
+    font-size: 20px;
+    margin: 51px auto;
+    line-height: 55px;
+}
+
+#link_header
